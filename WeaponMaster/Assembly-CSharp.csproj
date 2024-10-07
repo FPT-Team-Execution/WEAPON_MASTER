@@ -61,11 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Level2\Scripts\PLayerAttack.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />
+    <Compile Include="Assets\Bandits - Pixel Art\Demo\Bandit.cs" />
+    <Compile Include="Assets\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
+    <Compile Include="Assets\Scripts\Level2\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\StartMenu\MainMenu\MainMenuController.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
-    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\HeroKnight.cs" />
     <Compile Include="Assets\Scripts\Level2\Scripts\LakeBoxCollider.cs" />
     <Compile Include="Assets\Scripts\Level2\Scripts\PLayerMovement.cs" />
   </ItemGroup>
@@ -91,7 +90,6 @@
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\Hero Knight - Pixel Art\ColorSwap\Sprites-ColorSwap.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

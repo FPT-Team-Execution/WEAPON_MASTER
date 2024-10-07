@@ -3,19 +3,20 @@
   "WorkspaceRootPath": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|d:\\workspace\\_github\\weapon_master\\weaponmaster\\assets\\scripts\\level2\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|d:\\workspace\\_github\\weapon_master\\weaponmaster\\assets\\scripts\\level2\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level2\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|d:\\workspace\\_github\\weapon_master\\weaponmaster\\assets\\scripts\\level2\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level2\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|d:\\workspace\\_github\\weapon_master\\weaponmaster\\assets\\scripts\\level2\\scripts\\lakeboxcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level2\\scripts\\lakeboxcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\scripts\\lakeboxcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Documents\\Term7\\PRU212\\My project\\Assets\\Scripts\\Door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\startmenu\\mainmenu\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,32 +55,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Level2\\Scripts\\Enemy.cs",
+              "ToolTip": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Level2\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwCgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T01:00:25.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PLayerAttack.cs",
               "DocumentMoniker": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\PLayerAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level2\\Scripts\\PLayerAttack.cs",
               "ToolTip": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\PLayerAttack.cs",
               "RelativeToolTip": "Assets\\Scripts\\Level2\\Scripts\\PLayerAttack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwC0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T04:24:44.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T04:24:44.332Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Door.cs",
-              "DocumentMoniker": "D:\\Documents\\Term7\\PRU212\\My project\\Assets\\Scripts\\Door.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\Term7\\PRU212\\My project\\Assets\\Scripts\\Door.cs",
-              "ToolTip": "D:\\Documents\\Term7\\PRU212\\My project\\Assets\\Scripts\\Door.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Documents\\Term7\\PRU212\\My project\\Assets\\Scripts\\Door.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxgAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T04:15:54.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "LakeBoxCollider.cs",
               "DocumentMoniker": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\LakeBoxCollider.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level2\\Scripts\\LakeBoxCollider.cs",
@@ -87,21 +87,19 @@
               "RelativeToolTip": "Assets\\Scripts\\Level2\\Scripts\\LakeBoxCollider.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAYwBMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T04:14:27.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T04:14:27.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PLayerMovement.cs",
               "DocumentMoniker": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\PLayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level2\\Scripts\\PLayerMovement.cs",
               "ToolTip": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\PLayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Level2\\Scripts\\PLayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAywCkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T03:34:43.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T03:34:43.747Z"
             },
             {
               "$type": "Document",
