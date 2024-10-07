@@ -16,6 +16,7 @@ namespace Assets.Scripts.Level2.Scripts
 		private Animator anim;
 		private float coolDownTime = 0f;
 		private float attackCoolDown = 0.5f;
+		private int attackDamage = 50;
 
 		private Queue<string> attackTriggers = new Queue<string>(new[] { "Attack1", "Attack2", "Attack3" });
 	
@@ -35,8 +36,6 @@ namespace Assets.Scripts.Level2.Scripts
 			coolDownTime += Time.deltaTime;
 		}
 
-
-
 		private void Attack()
 		{
 			//play attack animation
@@ -47,7 +46,11 @@ namespace Assets.Scripts.Level2.Scripts
 			//Damage them
 			foreach(Collider2D enemy in hitEnemies)
 			{
-				print("we hit" + enemy.name);
+				var targetEnemy = enemy.GetComponent<Enemy>();
+                if (targetEnemy != null){
+
+				   targetEnemy.TakeDamage(attackDamage);
+				}
 			}
 		}
 

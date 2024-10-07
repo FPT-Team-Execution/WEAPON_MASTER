@@ -1,43 +1,54 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    private Animator animator;
-    private BoxCollider2D collider2D;
-    public int maxHealth = 100;
-    public int currentHealth;
-    // Start is called before the first frame update
-    void Start()
-    {
-        currentHealth = maxHealth;
-        animator = GetComponent<Animator>();
-        collider2D = GetComponent<BoxCollider2D>();
-    }
+	private Animator animator;
+	private BoxCollider2D enemyCollider;
+	public int maxHealth = 100;
+	public int currentHealth;
+	public bool isDead = false;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	public BoxCollider2D sensorCollider;
+	// Start is called before the first frame update
+	void Start()
+	{
+		currentHealth = maxHealth;
+		animator = GetComponent<Animator>();
+		enemyCollider = GetComponent<BoxCollider2D>();
+	}
 
-    public void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-        //play animation for hurt
+	// Update is called once per frame
+	void Update()
+	{
+		enemyCollider = GetComponent<BoxCollider2D>();
+	}
 
-        if (currentHealth < 0) {
-            Die();
-        }
-    }
-    private void Die()
-    {
-        print("Enemy Die");
-        //play animation for die
 
-        //disable enemy
-        enabled = false;
-        collider2D.enabled = false  ;
-    }
+
+	public void TakeDamage(int damage)
+	{
+
+		//play animation for hurt
+		if (currentHealth <= 0)
+		{
+			isDead = true;
+			Die();
+		}
+		else
+		{
+			currentHealth -= damage;
+			animator.SetTrigger("Hurt");
+		}
+	}
+	private void Die()
+	{
+		//play animation for die
+		animator.SetTrigger("Death");
+		//disable enemy
+		//enabled = false;
+		enemyCollider.enabled = false;
+		//GetComponent<SpriteRenderer>().enabled = false;
+	}
 }

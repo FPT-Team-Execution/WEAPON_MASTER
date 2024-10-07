@@ -61,11 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Level2\Scripts\PLayerAttack.cs" />
-    <Compile Include="Assets\Bandits - Pixel Art\Demo\Bandit.cs" />
-    <Compile Include="Assets\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
     <Compile Include="Assets\Scripts\Level2\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\StartMenu\MainMenu\MainMenuController.cs" />
+    <Compile Include="Assets\Scripts\Level2\Scripts\EnnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Level2\Scripts\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\Level2\Scripts\LakeBoxCollider.cs" />
+    <Compile Include="Assets\Scripts\Level2\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Level2\Scripts\PLayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>

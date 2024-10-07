@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|d:\\workspace\\_github\\weapon_master\\weaponmaster\\assets\\scripts\\level2\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level2\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level2\\scripts\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\scripts\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|d:\\workspace\\_github\\weapon_master\\weaponmaster\\assets\\scripts\\level2\\scripts\\ennemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level2\\scripts\\ennemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level2\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,32 +62,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnnemyMovement.cs",
+              "DocumentMoniker": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\EnnemyMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Level2\\Scripts\\EnnemyMovement.cs",
+              "ToolTip": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\EnnemyMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Level2\\Scripts\\EnnemyMovement.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:15:52.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyAttack.cs",
+              "DocumentMoniker": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\EnemyAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Level2\\Scripts\\EnemyAttack.cs",
+              "ToolTip": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\EnemyAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Level2\\Scripts\\EnemyAttack.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T04:29:25.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level2\\Scripts\\Enemy.cs",
               "ToolTip": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Level2\\Scripts\\Enemy.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAUwCgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T01:00:25.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PLayerAttack.cs",
               "DocumentMoniker": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\PLayerAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level2\\Scripts\\PLayerAttack.cs",
               "ToolTip": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\PLayerAttack.cs",
               "RelativeToolTip": "Assets\\Scripts\\Level2\\Scripts\\PLayerAttack.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwC0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAawC0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T04:24:44.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LakeBoxCollider.cs",
               "DocumentMoniker": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\LakeBoxCollider.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level2\\Scripts\\LakeBoxCollider.cs",
@@ -91,19 +125,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PLayerMovement.cs",
               "DocumentMoniker": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\PLayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level2\\Scripts\\PLayerMovement.cs",
               "ToolTip": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level2\\Scripts\\PLayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Level2\\Scripts\\PLayerMovement.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAywCkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwCkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T03:34:43.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MainMenuController.cs",
               "DocumentMoniker": "D:\\Workspace\\_GITHUB\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\StartMenu\\MainMenu\\MainMenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StartMenu\\MainMenu\\MainMenuController.cs",
