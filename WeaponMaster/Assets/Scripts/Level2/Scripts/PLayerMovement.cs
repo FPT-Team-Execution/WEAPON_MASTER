@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -48,6 +49,13 @@ public class PlayerMovement : MonoBehaviour
 
 	}
 
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
 
+		if (collision.tag == "NextLevel") {
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		}
+
+	}
 
 }
