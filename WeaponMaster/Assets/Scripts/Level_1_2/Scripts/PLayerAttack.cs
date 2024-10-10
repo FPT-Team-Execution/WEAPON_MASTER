@@ -27,7 +27,7 @@ namespace Assets.Scripts.Level2.Scripts
 		}
 		private void Update()
 		{
-			if (Input.GetMouseButton(0) && coolDownTime > attackCoolDown)
+			if (Input.GetMouseButton(0) && coolDownTime > attackCoolDown && !Health.isDeath)
 			{
 
 				Attack();

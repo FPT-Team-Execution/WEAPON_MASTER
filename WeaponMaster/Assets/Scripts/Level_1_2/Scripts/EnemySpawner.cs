@@ -21,7 +21,6 @@ public class EnemySpawner : MonoBehaviour
 				Random.Range(spawnAreaMin.y, spawnAreaMax.y),
 				Random.Range(spawnAreaMin.z, spawnAreaMax.z)
 			);
-
 			Instantiate(enemyPrefab, randomPosition, Quaternion.identity);
 		}
 	}

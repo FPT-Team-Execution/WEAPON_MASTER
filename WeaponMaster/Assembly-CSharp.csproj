@@ -61,14 +61,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\StartMenu\NextLevel\NextLevelController.cs" />
-    <Compile Include="Assets\Scripts\Level2\Scripts\PLayerAttack.cs" />
-    <Compile Include="Assets\Scripts\Level2\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Level_1_2\Scripts\LakeBoxCollider.cs" />
+    <Compile Include="Assets\Scripts\Level_1_2\Scripts\PLayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Level_1_2\Scripts\PLayerAttack.cs" />
+    <Compile Include="Assets\Scripts\Level_1_2\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\Level_1_2\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Level_1_2\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\StartMenu\MainMenu\MainMenuController.cs" />
-    <Compile Include="Assets\Scripts\Level2\Scripts\EnnemyMovement.cs" />
-    <Compile Include="Assets\Scripts\Level2\Scripts\EnemyAttack.cs" />
-    <Compile Include="Assets\Scripts\Level2\Scripts\LakeBoxCollider.cs" />
-    <Compile Include="Assets\Scripts\Level2\Scripts\EnemySpawner.cs" />
-    <Compile Include="Assets\Scripts\Level2\Scripts\PLayerMovement.cs" />
+    <Compile Include="Assets\Scripts\StartMenu\PlayAgain\PlayAgainController.cs" />
+    <Compile Include="Assets\Scripts\Level_1_2\Scripts\EnnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Level_1_2\Scripts\EnemyAttack.cs" />
+    <Compile Include="Assets\Scripts\Level_1_2\Scripts\HealthBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

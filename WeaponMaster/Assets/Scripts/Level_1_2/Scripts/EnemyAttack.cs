@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 namespace Assets.Scripts.Level2.Scripts
@@ -13,12 +13,23 @@ namespace Assets.Scripts.Level2.Scripts
 		private float coolDownTime = 0f;
 		private float attackCoolDown = 0.8f;
 		public bool playerInRange = false;  // Track if player is in the trigger
-
-
+		public HealthBar healthBar;
+		public float dame = 0.02f;
 
 		private void Awake()
 		{
 			anim = GetComponent<Animator>();
+			// Tìm đối tượng có tag "playerHealth" và lấy component HealthBar
+			GameObject healthBarObject = GameObject.FindWithTag("PlayerHealth");
+
+			if (healthBarObject != null)
+			{
+				healthBar = healthBarObject.GetComponent<HealthBar>();
+			}
+			else
+			{
+				Debug.LogError("Không tìm thấy đối tượng với tag 'playerHealth'");
+			}
 		}
 
 		private void Update()
@@ -27,7 +38,7 @@ namespace Assets.Scripts.Level2.Scripts
 			coolDownTime += Time.deltaTime;
 
 			// Automatically attack if the player is in range and cooldown is over
-			if (playerInRange && coolDownTime > attackCoolDown)
+			if (playerInRange && coolDownTime > attackCoolDown && Health.isDeath == false)
 			{
 				Attack();
 				coolDownTime = 0;
@@ -55,6 +66,7 @@ namespace Assets.Scripts.Level2.Scripts
 			{
 				print("we hit " + enemy.name);
 				// Apply damage to the player or any other logic
+				healthBar.Damage(dame);
 			}
 		}
 
@@ -62,7 +74,7 @@ namespace Assets.Scripts.Level2.Scripts
 		{
 			if (collision.tag == "Player")
 			{
-				playerInRange = true; 
+				playerInRange = true;
 			}
 		}
 
@@ -71,7 +83,7 @@ namespace Assets.Scripts.Level2.Scripts
 		{
 			if (collision.tag == "Player")
 			{
-				playerInRange = false;  
+				playerInRange = false;
 			}
 		}
 	}

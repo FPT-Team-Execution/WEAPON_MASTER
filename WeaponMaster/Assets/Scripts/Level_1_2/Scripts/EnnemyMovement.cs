@@ -19,7 +19,10 @@ public class EnemyMovement : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		MoveTowardsPlayer();
+		if (Health.isDeath == false)
+		{
+			MoveTowardsPlayer();
+		}
 	}
 
 	// Function to move the enemy towards the player
@@ -31,11 +34,11 @@ public class EnemyMovement : MonoBehaviour
 			transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
 			if (transform.position.x < player.position.x)
 			{
-				transform.localScale = new Vector3(-0.7f, 0.7f, 1); 
+				transform.localScale = new Vector3(-0.7f, 0.7f, 1);
 			}
 			else
 			{
-				transform.localScale = new Vector3(0.7f, 0.7f, 1); 
+				transform.localScale = new Vector3(0.7f, 0.7f, 1);
 			}
 		}
 	}

@@ -7,7 +7,7 @@ public class LakeBoxCollider : MonoBehaviour
     [SerializeField]private float slowDownSpeed;
 	[SerializeField]private PlayerMovement PlayerMovement;
 
-	private float oldSpeed = 0f;
+	private float oldSpeed = 3f;
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
