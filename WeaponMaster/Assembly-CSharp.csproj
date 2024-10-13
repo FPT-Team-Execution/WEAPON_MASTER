@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Level_1_2\Scripts\EnnemyMovement.cs" />
     <Compile Include="Assets\Scripts\Level_1_2\Scripts\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\Level_1_2\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Level_1_2\Scripts\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
