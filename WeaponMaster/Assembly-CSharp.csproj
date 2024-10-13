@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Level_1_2\Scripts\PLayerMovement.cs" />
     <Compile Include="Assets\Scripts\Level_1_2\Scripts\PLayerAttack.cs" />
     <Compile Include="Assets\Scripts\Level_1_2\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\Level_4\Scripts\EnemySpawnScript.cs" />
     <Compile Include="Assets\Scripts\Level_1_2\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Level_1_2\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\StartMenu\MainMenu\MainMenuController.cs" />
