@@ -37,33 +37,34 @@ namespace Assets.Scripts.Level2.Scripts
 			coolDownTime += Time.deltaTime;
 		}
 
-		private void Attack()
-		{
-			//play attack animation
-			anim.SetTrigger(attachTrigger());
+        private void Attack()
+        {
+            anim.SetTrigger(attachTrigger());
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
-			//Detect enemies in range of attack
-			Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-			//Damage them
-			//foreach(Collider2D enemy in hitEnemies)
-			//{
-			//	var targetEnemy = enemy.GetComponent<Enemy>();
-			//             if (targetEnemy != null){
+            // Damage them
+            foreach (Collider2D enemy in hitEnemies)
+            {
+                BossMovement boss = enemy.GetComponent<BossMovement>();
+                if (boss != null)
+                {
+                    boss.TakeDamage(attackDamage);
+                }
+                else
+                {
+                    var targetEnemy = enemy.GetComponent<Enemy>();
+                    if (targetEnemy != null)
+                    {
+                        targetEnemy.TakeDamage(attackDamage);
+                    }
+                }
+            }
+        }
 
-			//	   targetEnemy.TakeDamage(attackDamage);
-			//	}
-			//}
-			var targetEnemy = hitEnemies[0].GetComponent<Enemy>();
-			if (targetEnemy != null)
-			{
-				targetEnemy.TakeDamage(attackDamage);
-			}
-		}
-
-		/// <summary>
-		/// method in Unity that is used to draw gizmos only when an object is selected in the scene view.
-		/// </summary>
-		private void OnDrawGizmosSelected()
+        /// <summary>
+        /// method in Unity that is used to draw gizmos only when an object is selected in the scene view.
+        /// </summary>
+        private void OnDrawGizmosSelected()
 		{
 			if (attackPoint == null)
 				return;
