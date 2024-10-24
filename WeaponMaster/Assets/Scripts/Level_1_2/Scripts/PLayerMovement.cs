@@ -7,10 +7,14 @@ public class PlayerMovement : MonoBehaviour
 	private Rigidbody2D rb;
 	Vector2 movement;
 	private Animator anim;
+	AudioManager audioManager;
+
+
 	private void Awake()
 	{
 		rb = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
+		audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
 	}
 
 	private void Update()

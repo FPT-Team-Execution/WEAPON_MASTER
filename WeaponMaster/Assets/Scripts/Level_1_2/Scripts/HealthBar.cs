@@ -9,6 +9,7 @@ public class HealthBar : MonoBehaviour
 	private Animator playerAnimator;
 	private GameObject gameOverCanvas;
 	private GameObject player;
+	AudioManager audioManager;
 
 	// Start is called before the first frame update
 	void Start()
@@ -18,6 +19,7 @@ public class HealthBar : MonoBehaviour
 
 		// Tìm đối tượng có tag "playerHealth" và lấy component HealthBar
 		GameObject healthBarObject = GameObject.FindWithTag("PlayerHealth");
+		audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
 
 		// Tìm đối tượng Player bằng tag và lấy Animator
 		player = GameObject.FindWithTag("Player");
@@ -45,6 +47,7 @@ public class HealthBar : MonoBehaviour
 	{
 		if ((Health.totalHealth -= damage) >= 0f)
 		{
+			audioManager.PlaySFX(audioManager.playerHurt, 0.5f);
 			playerAnimator.SetTrigger("Hurt");
 			Health.totalHealth -= damage;
 		}
@@ -64,6 +67,7 @@ public class HealthBar : MonoBehaviour
 		if (Health.totalHealth <= 0 && Health.isDeath == false)
 		{
 			Health.isDeath = true;
+			audioManager.PlaySFX(audioManager.playerDead, 1f);
 			playerAnimator.SetTrigger("Death");
 			gameOverCanvas.SetActive(true);
 			

@@ -21,9 +21,12 @@ namespace Assets.Scripts.Level2.Scripts
 
 		private Queue<string> attackTriggers = new Queue<string>(new[] { "Attack1", "Attack2", "Attack3" });
 
+		AudioManager audioManager;
+
 		private void Awake()
 		{
 			anim = GetComponent<Animator>();
+			audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
 		}
 		private void Update()
 		{
@@ -41,7 +44,7 @@ namespace Assets.Scripts.Level2.Scripts
         {
             anim.SetTrigger(attachTrigger());
             Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
+			audioManager.PlaySFX(audioManager.playerAttack, 1f);
             // Damage them
             foreach (Collider2D enemy in hitEnemies)
             {

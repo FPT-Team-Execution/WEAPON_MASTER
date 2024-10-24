@@ -1,4 +1,5 @@
 using Assets.Scripts.Level2.Scripts;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
@@ -8,12 +9,14 @@ public class EnemyMovement : MonoBehaviour
 	private Enemy enemy;
 	private EnemyAttack enemyAttack;
 	private Animator Animator;
+	AudioManager audioManager;
 	void Start()
 	{
 		player = GameObject.FindWithTag("Player").transform;
 		enemy = GetComponent<Enemy>();
 		enemyAttack = GetComponent<EnemyAttack>();
 		Animator = GetComponent<Animator>();
+		audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
 	}
 
 	// Update is called once per frame

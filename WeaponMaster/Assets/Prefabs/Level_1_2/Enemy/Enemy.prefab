@@ -156,6 +156,7 @@ MonoBehaviour:
   playerInRange: 0
   healthBar: {fileID: 0}
   dame: 0.02
+  Enemy: {fileID: 5771555113531381475}
 --- !u!114 &5771555113531381475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,6 +172,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   isDead: 0
+  boudary: {fileID: 293178091596686506}
   sensorCollider: {fileID: 0}
 --- !u!50 &9181755125844655159
 Rigidbody2D:

@@ -15,12 +15,15 @@ namespace Assets.Scripts.Level2.Scripts
 		public bool playerInRange = false;  // Track if player is in the trigger
 		public HealthBar healthBar;
 		public float dame = 0.02f;
+		public Enemy Enemy;
+		AudioManager audioManager;
 
 		private void Awake()
 		{
 			anim = GetComponent<Animator>();
 			// Tìm đối tượng có tag "playerHealth" và lấy component HealthBar
 			GameObject healthBarObject = GameObject.FindWithTag("PlayerHealth");
+			audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
 
 			if (healthBarObject != null)
 			{
@@ -38,7 +41,7 @@ namespace Assets.Scripts.Level2.Scripts
 			coolDownTime += Time.deltaTime;
 
 			// Automatically attack if the player is in range and cooldown is over
-			if (playerInRange && coolDownTime > attackCoolDown && Health.isDeath == false)
+			if (playerInRange && coolDownTime > attackCoolDown && Health.isDeath == false && Enemy.isDead == false)
 			{
 				Attack();
 				coolDownTime = 0;
@@ -49,6 +52,7 @@ namespace Assets.Scripts.Level2.Scripts
 		{
 			// Play attack animation
 			anim.SetTrigger("EAttack");
+			audioManager.PlaySFX(audioManager.enemyMoiMoiMoi, 1f);
 			StartCoroutine(CheckOverlapAfterDelay(1.6f));
 		}
 
