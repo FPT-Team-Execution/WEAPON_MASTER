@@ -14,6 +14,8 @@ public class AudioManager : MonoBehaviour
 	public AudioClip playerHurt;
 	public AudioClip playerDead;
 	public AudioClip playerAttack;
+	public AudioClip bossHeehee;
+	public AudioClip bossAaow;
 
 	private void Start()
 	{

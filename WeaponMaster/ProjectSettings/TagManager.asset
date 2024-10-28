@@ -8,6 +8,7 @@ TagManager:
   - PlayerHealth
   - GameOver
   - AudioManager
+  - MJ
   layers:
   - Default
   - TransparentFX

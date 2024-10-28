@@ -8156,6 +8156,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: e8bcd0e5d6586314c8939014018a7f78, type: 3}
     - target: {fileID: 3828654983839574832, guid: 61ef58fd14faa8c439d3133566d7714c, type: 3}
+      propertyPath: bossheHeehee
+      value: 
+      objectReference: {fileID: 8300000, guid: c303ebe3010b6d94e9e4b5642ef5180f, type: 3}
+    - target: {fileID: 3828654983839574832, guid: 61ef58fd14faa8c439d3133566d7714c, type: 3}
       propertyPath: playerAttack
       value: 
       objectReference: {fileID: 8300000, guid: 4b1e4e3defb4f814887df7e86743d2f7, type: 3}

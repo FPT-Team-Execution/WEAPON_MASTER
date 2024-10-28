@@ -311,3 +311,5 @@ MonoBehaviour:
   playerHurt: {fileID: 8300000, guid: e8bcd0e5d6586314c8939014018a7f78, type: 3}
   playerDead: {fileID: 8300000, guid: 45364e159c5af3441bc3cf7cf3d7492a, type: 3}
   playerAttack: {fileID: 8300000, guid: 4b1e4e3defb4f814887df7e86743d2f7, type: 3}
+  bossHeehee: {fileID: 8300000, guid: c303ebe3010b6d94e9e4b5642ef5180f, type: 3}
+  bossAaow: {fileID: 8300000, guid: 7f18352e674486445ae3beda4967850a, type: 3}

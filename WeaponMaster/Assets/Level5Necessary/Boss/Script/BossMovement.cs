@@ -18,11 +18,12 @@ public class BossMovement : MonoBehaviour
     public float damage = 0.02f;
     [SerializeField] private int maxHealth;
     private int currentHealth;
-
+    AudioManager audioManager;
 
     private void Start()
     {
-        player = GameObject.FindWithTag("Player").transform;
+		audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+		player = GameObject.FindWithTag("Player").transform;
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         GameObject healthBarObject = GameObject.FindWithTag("PlayerHealth");
@@ -48,6 +49,7 @@ public class BossMovement : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        audioManager.PlaySFX(audioManager.bossAaow, 1f);
         if (!isDead)
         {
             currentHealth -= damage;
@@ -93,6 +95,7 @@ public class BossMovement : MonoBehaviour
         {
             isAttacking = true;
             cooldownTimer = 0;
+            audioManager.PlaySFX(audioManager.bossHeehee, 1f);
             animator.SetTrigger("attacking");
 
 
