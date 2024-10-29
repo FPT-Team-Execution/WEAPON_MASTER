@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level_1_2\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\assets\\level5necessary\\boss\\script\\bossmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\level5necessary\\boss\\script\\bossmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\audiomanager\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level_1_2\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level_1_2\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|c:\\fpt_university_sources\\after_ojt\\term_7\\pru212\\weapon_master\\weaponmaster\\assets\\scripts\\level_1_2\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level_1_2\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|c:\\fpt_university_sources\\after_ojt\\term_7\\pru212\\weapon_master\\weaponmaster\\assets\\scripts\\level_1_2\\scripts\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level_1_2\\scripts\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level_1_2\\scripts\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|c:\\fpt_university_sources\\after_ojt\\term_7\\pru212\\weapon_master\\weaponmaster\\assets\\scripts\\audiomanager\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level_1_2\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level_1_2\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|c:\\fpt_university_sources\\after_ojt\\term_7\\pru212\\weapon_master\\weaponmaster\\assets\\level5necessary\\boss\\script\\bossmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\level5necessary\\boss\\script\\bossmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|c:\\fpt_university_sources\\after_ojt\\term_7\\pru212\\weapon_master\\weaponmaster\\assets\\scripts\\level_4\\scripts\\enemyspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level_4\\scripts\\enemyspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level_4\\scripts\\enemyspawnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level_1_2\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level_1_2\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level_1_2\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level_1_2\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D00D331-4195-5A95-7B08-B13E90EEDB89}|Assembly-CSharp.csproj|C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\assets\\scripts\\level_1_2\\scripts\\ennemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -97,11 +97,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HealthBar.cs",
               "DocumentMoniker": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level_1_2\\Scripts\\HealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level_1_2\\Scripts\\HealthBar.cs",
@@ -110,34 +110,7 @@
               "ViewState": "AgIAACkAAAAAAAAAAIA2wEYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T05:59:28.612Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BossMovement.cs",
-              "DocumentMoniker": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Level5Necessary\\Boss\\Script\\BossMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Level5Necessary\\Boss\\Script\\BossMovement.cs",
-              "ToolTip": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Level5Necessary\\Boss\\Script\\BossMovement.cs",
-              "RelativeToolTip": "Assets\\Level5Necessary\\Boss\\Script\\BossMovement.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAmwHUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T21:51:55.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EnemySpawnScript.cs",
-              "DocumentMoniker": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level_4\\Scripts\\EnemySpawnScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Level_4\\Scripts\\EnemySpawnScript.cs",
-              "ToolTip": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level_4\\Scripts\\EnemySpawnScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Level_4\\Scripts\\EnemySpawnScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T21:51:28.737Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -161,33 +134,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "BossMovement.cs",
+              "DocumentMoniker": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Level5Necessary\\Boss\\Script\\BossMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Level5Necessary\\Boss\\Script\\BossMovement.cs",
+              "ToolTip": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Level5Necessary\\Boss\\Script\\BossMovement.cs",
+              "RelativeToolTip": "Assets\\Level5Necessary\\Boss\\Script\\BossMovement.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAywDQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T21:51:55.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemySpawnScript.cs",
+              "DocumentMoniker": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level_4\\Scripts\\EnemySpawnScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Level_4\\Scripts\\EnemySpawnScript.cs",
+              "ToolTip": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level_4\\Scripts\\EnemySpawnScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Level_4\\Scripts\\EnemySpawnScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T21:51:28.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\AudioManager\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager\\AudioManager.cs",
               "ToolTip": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\AudioManager\\AudioManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\AudioManager\\AudioManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T20:20:06.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level_1_2\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level_1_2\\Scripts\\Enemy.cs",
               "ToolTip": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level_1_2\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Level_1_2\\Scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwDYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T09:07:23.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PLayerMovement.cs",
               "DocumentMoniker": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level_1_2\\Scripts\\PLayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level_1_2\\Scripts\\PLayerMovement.cs",
@@ -195,8 +193,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Level_1_2\\Scripts\\PLayerMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAASwBcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T06:17:03.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T06:17:03.643Z"
             },
             {
               "$type": "Document",
@@ -208,12 +205,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Level_1_2\\Scripts\\EnnemyMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:35:57.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T07:35:57.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EnemyAttack.cs",
               "DocumentMoniker": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level_1_2\\Scripts\\EnemyAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level_1_2\\Scripts\\EnemyAttack.cs",
@@ -221,12 +217,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Level_1_2\\Scripts\\EnemyAttack.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAowDgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T05:57:43.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T05:57:43.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PLayerAttack.cs",
               "DocumentMoniker": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level_1_2\\Scripts\\PLayerAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level_1_2\\Scripts\\PLayerAttack.cs",
@@ -239,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\FPT_University_Sources\\After_OJT\\Term_7\\PRU212\\WEAPON_MASTER\\WeaponMaster\\Assets\\Scripts\\Level_1_2\\Scripts\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Level_1_2\\Scripts\\Health.cs",
@@ -247,8 +242,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Level_1_2\\Scripts\\Health.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T05:52:41.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T05:52:41.761Z"
             },
             {
               "$type": "Document",
@@ -260,8 +254,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Level_1_2\\Scripts\\EnemySpawner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T06:56:22.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T06:56:22.596Z"
             },
             {
               "$type": "Document",
