@@ -19,6 +19,7 @@ public class BossMovement : MonoBehaviour
     [SerializeField] private int maxHealth;
     private int currentHealth;
     AudioManager audioManager;
+    [SerializeField] private GameObject lazer;
 
     private void Start()
     {
@@ -97,8 +98,7 @@ public class BossMovement : MonoBehaviour
             cooldownTimer = 0;
             audioManager.PlaySFX(audioManager.bossHeehee, 1f);
             animator.SetTrigger("attacking");
-
-
+            lazer.SetActive(true);
             StartCoroutine(CheckHitPlayer());
         }
     }

@@ -8,7 +8,7 @@ using static UnityEngine.EventSystems.EventTrigger;
 
 namespace Assets.Scripts.Level2.Scripts
 {
-	public class PlayerAttack : MonoBehaviour
+    public class PlayerAttack : MonoBehaviour
 	{
 		[SerializeField] private Transform attackPoint;
 		[SerializeField] private float attackRange = 0.5f;
