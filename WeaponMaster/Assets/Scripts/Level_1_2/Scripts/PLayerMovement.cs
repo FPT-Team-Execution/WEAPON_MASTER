@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
@@ -8,14 +8,23 @@ public class PlayerMovement : MonoBehaviour
 	Vector2 movement;
 	private Animator anim;
 	AudioManager audioManager;
+    public HealthBar healthBar;
 
-
-	private void Awake()
+    private void Awake()
 	{
 		rb = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
-		audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
-	}
+        GameObject healthBarObject = GameObject.FindWithTag("PlayerHealth");
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
+        if (healthBarObject != null)
+        {
+            healthBar = healthBarObject.GetComponent<HealthBar>();
+        }
+        else
+        {
+            Debug.LogError("Không tìm thấy đối tượng với tag 'playerHealth'");
+        }
+    }
 
 	private void Update()
 	{
@@ -68,7 +77,20 @@ public class PlayerMovement : MonoBehaviour
 		{
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 		}
+		if (collision.tag == "healthBoost")
+		{
+			if (Health.totalHealth < 1)
+			{
+				Health.totalHealth += 0.2f;
+				if (Health.totalHealth > 1)
+				{
+					Health.totalHealth = 1;
+				}
+				healthBar.SetSize(Health.totalHealth);
+			}
 
-	}
+		}
+
+    }
 
 }
